@@ -6,6 +6,7 @@ const answers =(
   numberOne: number,
   numberTwo: number,
   operator: string,
+  
 }= await inquirer.prompt([
   { type: "number", name: "numberOne", message: "Enter your first number" },
   {
